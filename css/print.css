@@ -1,0 +1,85 @@
+*{margin: 0; padding: 0}
+
+body{
+	text-align: left;
+	font-family: tahoma;
+	font-size: 7pt;
+	padding: 5px;
+	color: #000000;
+}
+a, h1, h2, h3, h4{
+	color: #000000;
+}
+.clear{clear: both;}
+h2{
+	font-size: 16pt;
+	font-weight: bold;
+	margin-bottom: 10px;
+}
+#listtb{
+	width: 100%;
+	border-collapse: collapse;
+}
+#listtb td{
+	padding: 5px;
+	border: 1px solid #000;
+}
+#listtb tr.last td{
+	border: none;
+border-top: 1px solid #000;	
+}
+table.static_tb{
+	width: auto;
+	border-collapse: collapse;
+}
+table.static_tb td{
+	padding: 5px;
+	border: 1px solid #000;
+}
+table.static_tb tr.last td{
+	border: none;
+border-top: 1px solid #000;	
+}
+.spaces{
+	height: 10px;
+}
+#tb_info{
+	width: 100%;
+}
+
+.static_tb2{border: none; width: 100%; border-collapse: collapse;}
+.static_tb2 td {padding: 6px;border-bottom: 1px solid #000;}
+.static_tb2 tr{background: white;}
+.static_tb2 td.first{border-left: 1px solid #000;}
+.static_tb2 td.last{border-right: 1px solid #000;}
+.static_tb2 td.none{border-bottom: none;}
+.static_tb2 td.top{border-top: 1px solid #000;}
+
+#print-bill-details .sign{
+	float: right;
+	width: 25%;
+	text-align: center;
+	margin-top: 20px;
+}
+
+#product-code img{
+	margin: 5px;
+	width: 117px;
+	height: 37px;
+}
+#product-code{
+	text-align: center;
+}
+#product-code div{
+	display: inline-block;
+	width: 48mm;
+	height: 15mm;
+	text-align: center;
+	margin: 0 1mm 3mm;
+}
+.bold{
+	font-weight: bold;
+}
+.uppercase{
+	text-transform: uppercase;
+}
