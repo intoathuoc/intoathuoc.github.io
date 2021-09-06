@@ -1,6 +1,13 @@
 <meta charset="utf8" />
 <html>
+  <head>
 
+<link href="https://unpkg.com/@ionic/core@latest/css/ionic.bundle.css" rel="stylesheet">
+<!-- Import Ionic -->
+<script src="https://unpkg.com/@ionic/core@latest/dist/ionic.js"></script>
+<!-- Optional, import the Ionic icons -->
+<script src="https://unpkg.com/ionicons@latest/dist/ionicons.js"></script>
+  
 <!-- sqlite -->
 <script src='js/sql/sql.js'></script>
 
@@ -16,11 +23,26 @@
 <script src="js/filesaver/FileSaver.min.js"></script>
 
 <script src='js/index.js'></script>
-
+</head>
 <body>
+<!-- We create a vanilla Javascript function to call the alert -->
+<script>
+  hello = async function () {
+      alert('Hello World!');
+  };
+</script>
 
+<!-- We declare an Ionic app using the <ion-app/> element -->
+<ion-app>
+  <!-- Cool thing, the Ionic CSS utilities could be used too -->
+  <ion-content text-center>
+      <h1>Basic usage</h1>
+      <!-- We add an ion-button with an onclick event -->
+      <ion-button onclick="hello()">Click me</ion-button>
+  </ion-content>
+</ion-app>
   <div>
-    Add notes and export decks
+    Google Sheet to anki
   </div>
 
   <br>
